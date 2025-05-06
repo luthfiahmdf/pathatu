@@ -40,7 +40,7 @@ export const FeatureSection = () => {
             <div className="flex h-16 w-16 items-center justify-center rounded-full bg-orange-100">
               <Clock className="h-8 w-8 text-orange-600" />
             </div>
-            <h3 className="text-xl font-bold">Buka Setiap Hari</h3>
+            <h3 className="text-xl font-bold">Buka Setiap Hari Minggu</h3>
             <p className="text-gray-500">Kami buka setiap hari minggu untuk memastikan Anda selalu bisa membaca.</p>
           </div>
         </div>
