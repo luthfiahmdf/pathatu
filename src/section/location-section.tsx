@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button"
-import { Clock, MapPin } from "lucide-react"
+import { ChevronRight, Clock, MapPin } from "lucide-react"
 
 export const LocationSection = () => {
   return (
-
-
     <section id="location" className="w-full py-12 md:py-24 lg:py-32 ">
       <div className="flex flex-col md:flex-row justify-between px-6 md:px-32 items-center gap-4">
         <div className="space-y-4">
@@ -19,14 +17,19 @@ export const LocationSection = () => {
           <div className="space-y-2">
             <div className="flex items-center">
               <MapPin className="h-5 w-5 text-orange-600 mr-2" />
-              <span>Jl. Buku Indah No. 123, Kota Literasi</span>
+              <span>Kawasan Dwipapuri Abadi</span>
             </div>
             <div className="flex items-center">
               <Clock className="h-5 w-5 text-orange-600 mr-2" />
-              <span>Senin - Minggu: 09.00 - 21.00 WIB</span>
+              <span>Minggu: 07.00 - 10.00 WIB</span>
             </div>
           </div>
-          <Button className="bg-orange-600 hover:bg-orange-700">Petunjuk Arah</Button>
+          <a href="https://maps.app.goo.gl/1Zjb4o6tWLrnD2ut5" target="_blank">
+            <Button size="lg" className="bg-orange-600 cursor-pointer hover:bg-orange-700">
+              Petunjuk Arah
+              <ChevronRight className="ml-2 h-4 w-4" />
+            </Button>
+          </a>
         </div>
 
         <div className="w-full lg:w-1/2 h-[400px]">

@@ -18,13 +18,12 @@ export const MainSection = () => {
             bahwa akses terhadap buku dan pengetahuan adalah hak setiap orang.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
-            <Button size="lg" className="bg-orange-600 hover:bg-orange-700">
-              Kunjungi Sekarang
-              <ChevronRight className="ml-2 h-4 w-4" />
-            </Button>
-            <Button variant="outline" size="lg">
-              Lihat Koleksi Buku
-            </Button>
+            <a href="https://maps.app.goo.gl/1Zjb4o6tWLrnD2ut5" target="_blank">
+              <Button size="lg" className="bg-orange-600 cursor-pointer hover:bg-orange-700">
+                Kunjungi Sekarang
+                <ChevronRight className="ml-2 h-4 w-4" />
+              </Button>
+            </a>
           </div>
         </div>
         <div className=" w-full max-w-[500px] relative aspect-video lg:aspect-square overflow-hidden rounded-xl">

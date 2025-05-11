@@ -7,10 +7,10 @@ export const Footer = () => {
       <div className=" flex md:flex-row flex-col items-center  gap-4 px-4 md:px-16  justify-between">
         <div className="flex items-center gap-2">
           <BookOpen className="h-6 w-6 text-orange-500" />
-          <span className="text-xl font-bold">Lapak Baca Gratis</span>
+          <span className="text-xl font-bold">Pathatu</span>
         </div>
         <p className="text-center text-sm text-gray-500 md:text-left">
-          &copy; {new Date().getFullYear()} Lapak Baca Gratis. Semua hak dilindungi.
+          &copy; {new Date().getFullYear()} Pathatu. Semua hak dilindungi.
         </p>
         <div className="flex gap-4">
           <a href="#" className="text-gray-500 hover:text-gray-900">
